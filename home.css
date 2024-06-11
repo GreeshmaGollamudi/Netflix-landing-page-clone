@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.first{
+    background-image:linear-gradient(to right,rgba(0,0,0,0.7    ),rgba(0,0,0,0.6)),url("home-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 620px;
+}
+.left img{
+    height: 100px;
+    margin-right: 550px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.right select{
+    height: 30px;
+    width: 100px;
+    margin-top: 40px;
+    margin-right: 50px;
+    background-color: rgba(38, 39, 39, 0.408);
+    color: white;
+    text-align: center;
+}
+.right button{
+    height: 35px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 5px;
+    text-align: center;
+    border: 0;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    color: white;
+    overflow: hidden;
+}
+.container h1,.container p{
+    text-align: center;
+}
+.container h1{
+    font-size: 43px ;
+    margin-bottom: 35px;
+    font-weight: 995;
+    padding: 10px;
+}
+.container p{
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 333;
+}
+
+.container .last{
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+.container form input{
+    height: 40px;
+    width: 340px;
+    background-color: rgba(51, 51, 51, 0.355);
+    border: 1px solid rgb(237, 237, 237);
+    font-size: 20px;
+    padding: 15px;
+    margin-right: 50px;
+    color: white;
+}
+.container form button{
+    height: 50px;
+    width: 150px;
+    color: white;
+    background-color: red;
+    border: 0;
+    font-weight: 999;
+    padding: 10px;
+
+}
+hr{
+    height: 9px;
+    background-color: rgb(53, 49, 49);
+    border:0;
+}
+.second{
+    height: 550px;
+    background-color: rgba(0, 0, 0, 0.976);
+    color: white;
+    display: flex;
+}
+.second center{
+    height: 150px;
+    width: 50%;
+    margin-top: 150px;
+}
+.second center .left h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.second center .left p{
+    font-size: 23px;
+    width: 80%;
+}
+.even{
+    padding-left: 100px;
+}
+.three{
+    height: 920px;
+    background-color: black;
+}
+.three h1{
+    text-align: center;
+    color: white;
+    font-size: 42px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+}
+
+.faq{
+    height: 80px;
+    width: 70%;
+    margin-left: 15%;
+    background-color: rgb(59, 59, 59);
+    margin-top: 15px;
+}
+.faq p{
+    font-size: 23px;
+    padding-top: 25px;
+    padding-left: 25px;
+    color: white;
+}
+.one p span{
+    cursor: pointer;
+}
+footer{
+    height: 400px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.one{
+    padding: 32px;
+}
+option{
+    border: 5px solid black;
+}
